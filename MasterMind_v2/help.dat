@@ -1,0 +1,12 @@
+Startup options are:
+		-u, --user: set username
+		-l, --level: set level between 1 & 3
+		-r, --round: set num of rounds to play between 5 & 15
+		-s, --stat: show statistics
+		-h, --help: show help for startup(this screen)
+		-i, --intro: show game play details
+		-a, --about: game creator credentials
+Examples:
+		-u John or --user John Doe
+		-u John --level 1 --round 6
+		--user John Doe -l 2 -r 15 
