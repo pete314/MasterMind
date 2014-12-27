@@ -123,6 +123,7 @@ void showHelp(){
 	readFile(HELPER_FILE, tempHelper);
 	puts("\n\n\t------{ WHOOPS, THERE WAS AN ERROR! PLEASE CHECK THE START OPTIONS}---\n\n");
 	puts(tempHelper);
+	Sleep(3000);
 	exit(1);
 }//end showHelp()
 
